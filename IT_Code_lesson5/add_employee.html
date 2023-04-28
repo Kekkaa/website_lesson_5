@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang='ru'>
+	<head>
+		<meta charset="utf-8">
+		<title>Добавить сотрудника</title>
+		<link rel="icon" type="Image/x-icon" href="images/logo.png">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+	
+	<body background-color="#191919">
+		<script src="js/bootstrap.min.js"></script>
+			
+		<nav class="navbar navbar-expand-lg sticky-top" style="background-color: #f9d51f;">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="main_page.html">
+      				<img src="images/logo.png" alt="Logo" width="30px" class="d-inline-block align-text-top">
+      			</a>
+				
+				<a class="navbar-brand" href="main_page.html">Университет Hedwig</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+						aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            			<span class="navbar-toggler-icon"></span>
+           		 </button>
+			
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link" href="employers_list.html">Наши сотрудники</a>
+						<a class="nav-link" href="employee_of_the_month.html">Сотрудник месяца</a>
+						<a class="nav-link active" aria-current="page" href="add_employee.html">Добавить сотрудника</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!--Содержимое страницы-->
+		<div class="container" style="width: 500px">
+  			<br>
+  			<h1 align="center">Добавить сотрудника</h1>
+  			<br>
+  			<form>
+        		<div class="form-outline mb-4">
+     				<label class="form-label" for="form6Example1">Имя*</label>
+          			<input type="text" id="form6Example1" class="form-control"/>
+     			</div>
+
+        		<div class="form-outline mb-4">
+        			<label class="form-label" for="form6Example2">Фамилия*</label>
+          			<input type="text" id="form6Example2" class="form-control"/>    					
+      			</div>
+
+   				<div class="form-outline mb-4">
+   					<label class="form-label" for="form6Example3">Должность*</label>
+      				<input type="text" id="form6Example3" class="form-control"/>			
+    			</div>
+
+    			<div class="form-outline mb-4">
+    				<label class="form-label" for="form6Example4">Адрес*</label>
+			    	<input type="text" id="form6Example4" class="form-control"/>		      	
+    			</div>
+
+    			<div class="form-outline mb-4">
+    				<label class="form-label" for="form6Example5">Телефон*</label>
+		     		<input type="text" id="form6Example5" class="form-control"/>	      		
+    			</div>
+
+    			<div class="form-outline mb-4">
+    				<label class="form-label" for="form6Example6">E-mail*</label>
+      				<input type="email" id="form6Example6" class="form-control"/>     				
+    			</div>
+    			<p class="card-text"><small class="text-muted">*Поле обязательно для заполнения</small></p>
+    			<div class="form-check mb-3">
+    				<input type="checkbox" id="Check1" class="form-check-input">
+    				<label class="form-check-label" for="Check1">Согласие на обработку персональных данных</label>
+    			</div>
+    			
+    			<button type="submit" class="btn btn-primary btn-block mb-5">Отправить</button>
+  			</form>
+		</div>
+	</body>
+</html>
